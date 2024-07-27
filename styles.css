@@ -64,13 +64,13 @@ section {
     top: 0;
     left: 0;
     border-radius: 50%;
-    width: 80px; 
-    height: 80px;
+    width: 150px; 
+    height: 150px;
     margin: 0;
 }
 
 .text-content {
-    margin-left: 100px; 
+    margin-left: 170px; 
     flex: 1;
     text-align: center;
 }
