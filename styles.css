@@ -72,20 +72,22 @@ section h2 {
     margin-top: 0;
 }
 
-.photo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 20px;
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .photo-item img {
-    width: auto;
-    height: 200px;
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
     border-radius: 12px;
 }
 
 .photo-item p {
     margin-top: 10px;
+    text-align: center;
 }
 
 #preview {
