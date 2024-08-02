@@ -53,27 +53,28 @@ section {
 }
 
 .profile-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    position: relative; 
+    position: relative;
+    padding-left: 60px;
 }
 
 .profile-pic {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 10px; 
     border-radius: 50%;
-    width: 50px; 
-    height: 50px;
-    margin: 0;
+    width: 40px; 
+    height: 40px; 
+    z-index: -1; 
 }
 
 .text-content {
-    margin-left: 170px; 
     flex: 1;
-    text-align: center;
+    text-align: left; 
+    position: relative;
+    z-index: 1; 
+    padding-left: 70px; 
 }
+
 
 section h2 {
     margin-top: 0;
