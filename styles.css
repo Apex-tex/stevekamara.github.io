@@ -53,27 +53,6 @@ section {
     position: relative; 
 }
 
-.profile-container {
-    position: relative;
-    padding-left: 60px;
-}
-
-.profile-pic {
-    position: absolute;
-    top: 10px;
-    left: 10px; 
-    border-radius: 50%;
-    width: 40px; 
-    height: 40px; 
-    z-index: -1; 
-}
-
-.text-content {
-    padding-top: 40px;
-    padding-left: 0px; 
-}
-
-
 section h2 {
     margin-top: 0;
 }
